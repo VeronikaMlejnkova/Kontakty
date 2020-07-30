@@ -46,3 +46,15 @@ h1 {
         width: calc(100% / 2 - 30px)
     }
 }
+
+/* PC */
+@media (min-width: 960px) {
+    /* .tym {
+		display: flex;
+        flex-wrap: wrap; 
+    } */
+
+    .osoba {
+        width: calc(100% / 4 - 30px)
+    }
+}
