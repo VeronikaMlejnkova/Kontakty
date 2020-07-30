@@ -8,7 +8,7 @@ body {
 }
 
 /* ---------------------------------------------------- */
-
+ /* mobil */
 h1 {
 	text-align: center;
 }
@@ -19,7 +19,7 @@ h1 {
 	border-radius: 5px;
 	text-align: center;
 	max-height: 540px;
-	max-width: cacl(100% - 30px);
+	max-width: calc(100% - 30px);
 	padding: 20px;
 	margin: 15px;
 }
@@ -33,4 +33,16 @@ h1 {
 
 .detail {
 	padding: 0 30px;
+}
+
+/* tablet */
+@media (min-width: 540px) {
+    .tym {
+		display: flex;
+        flex-wrap: wrap; 
+    }
+
+    .osoba {
+        width: calc(100% / 2 - 30px)
+    }
 }
